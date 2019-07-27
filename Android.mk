@@ -22,12 +22,12 @@ include $(CLEAR_VARS)
 # Dummy ANT java library
 #
 
-LOCAL_SRC_FILES := \
-	$(call all-subdir-java-files)
+#LOCAL_SRC_FILES := \
+#	$(call all-subdir-java-files)
 
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE:= com.dsi.ant.antradio_library
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE:= com.dsi.ant.antradio_library
 
-include $(BUILD_JAVA_LIBRARY)
+#include $(BUILD_JAVA_LIBRARY)
 
 endif # BOARD_ANT_WIRELESS_DEVICE defined
